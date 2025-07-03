@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+int TEMPO, VELOCIDADE;
+float DISTANCIA, LITROS_USADOS;
+printf("Digite o tempo gasto na viagem (horas): ");
+scanf("%d", &TEMPO);
+printf("Digite a velocidade média (km/h): ");
+scanf("%d", &VELOCIDADE);
+DISTANCIA = TEMPO * VELOCIDADE;
+LITROS_USADOS = DISTANCIA / 12.0;
+printf("Velocidade média: %d km/h\n", VELOCIDADE);
+printf("Tempo gasto na viagem: %d horas\n", TEMPO);
+printf("Distância percorrida: %.2f km\n", DISTANCIA);
+printf("Litros utilizados: %.2f L\n", LITROS_USADOS);
+return 0;
+}
