@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+int a, b;
+printf("Digite dois números: ");
+scanf("%d %d", &a, &b);
+if (b == 0)
+printf("Divisão por zero\n");
+else if (a % b == 0)
+printf("Divisível\n");
+else
+printf("Não divisível\n");
+return 0;
+}
